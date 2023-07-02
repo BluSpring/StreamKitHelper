@@ -13,4 +13,4 @@ could i have just used other programs? yes. but i liked the idea of doing it on 
 <br>
 [index.html](index.html): Accessible from the root path of the base server's address, this is meant to be used as an OBS overlay, for displaying the PNGtubers.
 <br>
-[speaking.js](speaking.js): The script, meant to be hooked with [index.html], which would connect to the base server and handle the PNGtuber bounces based on speech.
+[speaking.js](speaking.js): The script, meant to be hooked with [index.html](index.html), which would connect to the base server and handle the PNGtuber bounces based on speech.
