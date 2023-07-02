@@ -1,0 +1,52 @@
+body {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+}
+
+#avatars {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+    padding-top: 35px;
+}
+
+#avatars img {
+    height: 300px;
+    display: flex;
+    margin: auto;
+}
+
+.speaking {
+    animation: bounce forwards infinite ease-out;
+    animation-duration: .5s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-15px);
+    }
+
+    35% {
+        transform: translateY(-35px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounceDown {
+    0% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}

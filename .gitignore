@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+avatars/**/*.png
+node_modules
+config.json
+*.log
